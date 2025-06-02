@@ -262,13 +262,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.20399302, y: -0, z: -0, w: 0.9789724}
-  m_LocalPosition: {x: 0, y: 4.77, z: -8.1}
+  m_LocalRotation: {x: 0.28831723, y: -0, z: -0, w: 0.9575349}
+  m_LocalPosition: {x: 0, y: 3.73, z: -7.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 23.541, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33.515, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +568,7 @@ GameObject:
   - component: {fileID: 906942312}
   - component: {fileID: 906942311}
   - component: {fileID: 906942318}
+  - component: {fileID: 906942319}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -587,6 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24793488bb828b44aa1dd8aa6b13d2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  andando: 0
 --- !u!114 &906942312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,6 +739,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7ca4235c6fdab48a230b2cd8ffdb50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &906942319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906942310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565fcf5ae50d0b94b9b8e6b007e755b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  velocidadeDaAnimacao: 1
 --- !u!1001 &991924663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -968,6 +984,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ataqueObject: {fileID: 1048077671}
+  andando: 0
+  ataque: 0
+  velocidadeDoAtaque: 1
   raioDeVisao: 10
   distanciaMinima: 0.5
 --- !u!114 &1619510002
