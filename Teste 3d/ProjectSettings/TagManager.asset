@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Inimigo
   - Ataque
+  - chao
   layers:
   - Default
   - TransparentFX
